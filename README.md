@@ -1,5 +1,7 @@
 # Nothing - A minimal Haskell project
 
+[![Build Status](https://travis-ci.org/apauley/Nothing.svg?branch=master)](https://travis-ci.org/apauley/Nothing)
+
 This project does Nothing (yet).
 Maybe you can turn it into something that's `Just marvelous`.
 
