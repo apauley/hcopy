@@ -2,8 +2,8 @@
 
 [![Build Status](https://travis-ci.org/apauley/Nothing.svg?branch=master)](https://travis-ci.org/apauley/Nothing)
 
-This project does Nothing (yet).
-Maybe you can turn it into something that's `Just marvelous`.
+This project evaluates to `Nothing` at the moment.<br/>
+`Maybe` you can turn it into something that's `Just marvelous`
 
 The guides [How to write a Haskell program][howtowrite] and [Structure of a Haskell project][howtostructure]
 provides some very good instructions for getting a basic Haskell project up and running.
