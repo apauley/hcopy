@@ -1,24 +1,19 @@
-# Nothing - A minimal Haskell project structure
+# Nothing - A minimal Haskell project
 
-This is based on [the minimal Haskell project][semantichnop],
-but with default values that I think I'll use for most of my Haskell play projects.
+This project does Nothing (yet).
+Maybe you can turn it into something that's `Just marvelous`.
 
-Some of the defaults I'm interested in are:
+The guides [How to write a Haskell program][howtowrite] and [Structure of a Haskell project][howtostructure]
+provides some very good instructions for getting a basic Haskell project up and running.
 
- * GHC compiler warnings: enabled and fatal
- * cabal packages that [play nice with each other][stackage]
- * Some compiler optimisations, e.g. use a threaded runtime
-
-If by some off chance anybody other than myself comes across this and finds it useful:
-feel free to fork it and customise it to your own liking.
-
-I don't play with Haskell often enough to know of all the latest best practices,
-so if you think I missed something that should be enabled by default, please let me know :-)
+This project (inspired by [hnop][semantichnop]) aims to turn the above guides into a runnable project
+that can be forked and used as a base for other Haskell projects.
 
 ## How to use this as a base for your new project
 
- 1. Fork this repo
- 2. Customise and rename Nothing references:
+ 1. Fork this repository.
+ 2. Rename your new repository.
+ 3. Customise and rename Nothing references:
 
 ```bash
 $ git mv Nothing.cabal my-new-project.cabal
@@ -26,6 +21,7 @@ $ git mv Nothing.cabal my-new-project.cabal
 
  * Modify my-new-project.cabal
  * Modify README.md
+ * Change the LICENSE file to reflect your project license.
  * Find and change any mentions of Nothing that you may have missed:
 
 ```bash
@@ -84,5 +80,6 @@ The binary is placed in this repository checkout under *.cabal-sandbox/bin/Nothi
 $ .cabal-sandbox/bin/Nothing
 ```
 
-[semantichnop]: http://semantic.org/hnop/
-[stackage]: https://www.stackage.org/
+[howtowrite]:     https://wiki.haskell.org/How_to_write_a_Haskell_program "How to write a Haskell program"
+[howtostructure]: https://wiki.haskell.org/Structure_of_a_Haskell_project "Structure of a Haskell project"
+[semantichnop]:   http://semantic.org/hnop/ "hnop"
