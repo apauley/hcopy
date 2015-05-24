@@ -3,13 +3,14 @@
 name:                Nothing
 version:             0.1.0.0
 synopsis:            Minimal Haskell Project
--- description:
+description:         This project evaluates to Nothing at the moment.
+                     Maybe you can turn it into something that's Just marvelous
 license:             MIT
 license-file:        LICENSE
 author:              Andreas Pauley
 maintainer:          apauley+github@gmail.com
 -- copyright:
--- category:
+category:            Development
 build-type:          Simple
 extra-source-files:  README.md
 cabal-version:       >=1.10
@@ -18,7 +19,11 @@ executable Nothing
   main-is:             Main.hs
   -- other-modules:
   -- other-extensions:
-  build-depends:       base >= 4.5
-  GHC-Options:         -Wall -Werror -O2 -rtsopts -threaded
+  build-depends:       base >= 4.5 && < 5.0
+  GHC-Options:         -Wall -rtsopts -threaded
   hs-source-dirs:      src
   default-language:    Haskell2010
+
+source-repository head
+  type:     git
+  location: git://github.com/apauley/Nothing.git
