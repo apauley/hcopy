@@ -12,8 +12,8 @@ that can be forked and used as a base for other Haskell projects.
 ## How to use this as a base for your new project
 
  1. Fork this repository.
- 2. Rename your new repository.
- 3. Customise and rename Nothing references:
+ 2. Rename your new git repository and clone it.
+ 3. Customise and rename references to Nothing in your local checkout:
 
 ```bash
 $ git mv Nothing.cabal my-new-project.cabal
