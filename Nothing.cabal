@@ -4,7 +4,7 @@ name:                Nothing
 version:             0.1.0.0
 synopsis:            Minimal Haskell Project
 description:         This project evaluates to Nothing at the moment.
-                     Maybe you can turn it into something that's Just marvelous
+                     Maybe you can turn it into something that's Just spectacular
 license:             MIT
 license-file:        LICENSE
 author:              Andreas Pauley

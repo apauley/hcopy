@@ -1,7 +1,7 @@
 # Nothing - A minimal Haskell project [![Build Status](https://travis-ci.org/apauley/Nothing.svg?branch=master)](https://travis-ci.org/apauley/Nothing)
 
 This project evaluates to `Nothing` at the moment.<br/>
-`Maybe` you can turn it into something that's `Just marvelous`
+`Maybe` you can turn it into something that's `Just spectacular`
 
 The guides [How to write a Haskell program][howtowrite] and [Structure of a Haskell project][howtostructure]
 provides some very good instructions for getting a basic Haskell project up and running.
