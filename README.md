@@ -1,4 +1,4 @@
-# hnop - A minimal Haskell project structure
+# Nothing - A minimal Haskell project structure
 
 This is based on [the minimal Haskell project][semantichnop],
 but with default values that I think I'll use for most of my Haskell play projects.
@@ -18,18 +18,18 @@ so if you think I missed something that should be enabled by default, please let
 ## How to use this as a base for your new project
 
  1. Fork this repo
- 2. Customise and rename hnop references:
+ 2. Customise and rename Nothing references:
 
 ```bash
-$ git mv hnop.cabal my-new-project.cabal
+$ git mv Nothing.cabal my-new-project.cabal
 ```
 
  * Modify my-new-project.cabal
  * Modify README.md
- * Find and change any mentions of hnop that you may have missed:
+ * Find and change any mentions of Nothing that you may have missed:
 
 ```bash
-$ git grep -i hnop
+$ git grep Nothing
 ```
 
 ### If I can't fork my own project and I have to clone :-/
@@ -37,7 +37,7 @@ $ git grep -i hnop
 ##### Clone this repo, but use the name of the new project
 
 ```bash
-$ git clone git@github.com:apauley/hnop.git my-new-project
+$ git clone git@github.com:apauley/Nothing.git my-new-project
 ```
 
 ##### Create _my-new-project_ in GitHub
@@ -78,10 +78,10 @@ $ cabal install -j
 
 ## Running the command-line executable
 
-The binary is placed in this repository checkout under *.cabal-sandbox/bin/hnop*
+The binary is placed in this repository checkout under *.cabal-sandbox/bin/Nothing*
 
 ```
-$ .cabal-sandbox/bin/hnop
+$ .cabal-sandbox/bin/Nothing
 ```
 
 [semantichnop]: http://semantic.org/hnop/
