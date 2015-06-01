@@ -9,7 +9,7 @@ license:             MIT
 license-file:        LICENSE
 author:              Andreas Pauley
 maintainer:          apauley+github@gmail.com
--- copyright:
+copyright:           2015 Andreas Pauley
 category:            Development
 build-type:          Simple
 extra-source-files:  README.md

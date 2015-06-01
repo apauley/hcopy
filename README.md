@@ -66,20 +66,19 @@ Needed only once after cloning the repo:
 ```bash
 $ cabal sandbox init
 $ cabal update
+$ cabal configure
 ```
 
-Compile and install after each code change:
+Build after each code change:
 
 ```bash
-$ cabal install -j
+$ cabal build -j --ghc-options=-Werror
 ```
 
 ## Running the command-line executable
 
-The binary is placed in this repository checkout under *.cabal-sandbox/bin/Nothing*
-
 ```
-$ .cabal-sandbox/bin/Nothing
+$ ./dist/build/Nothing/Nothing
 ```
 
 [howtowrite]:     https://wiki.haskell.org/How_to_write_a_Haskell_program "How to write a Haskell program"
