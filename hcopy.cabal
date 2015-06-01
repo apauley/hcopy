@@ -1,21 +1,20 @@
 -- For further documentation see http://haskell.org/cabal/users-guide/
 
-name:                Nothing
+name:                hcopy
 version:             0.1.0.0
-synopsis:            Minimal Haskell Project
-description:         This project evaluates to Nothing at the moment.
-                     Maybe you can turn it into something that's Just spectacular
-license:             MIT
+synopsis:            Cross-platform copy utility with some kind of friendly-ish UI.
+description:         Cross-platform copy utility with some kind of friendly-ish UI.
+license:             BSD3
 license-file:        LICENSE
 author:              Andreas Pauley
 maintainer:          apauley+github@gmail.com
 copyright:           2015 Andreas Pauley
-category:            Development
+category:            File Manager
 build-type:          Simple
 extra-source-files:  README.md
 cabal-version:       >=1.10
 
-executable Nothing
+executable hcopy
   main-is:             Main.hs
   -- other-modules:
   -- other-extensions:
@@ -26,4 +25,4 @@ executable Nothing
 
 source-repository head
   type:     git
-  location: git://github.com/apauley/Nothing.git
+  location: git://github.com/apauley/hcopy.git
