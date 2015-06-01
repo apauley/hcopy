@@ -1,4 +1,6 @@
-# Nothing - A minimal Haskell project [![Build Status](https://travis-ci.org/apauley/Nothing.svg?branch=master)](https://travis-ci.org/apauley/Nothing)
+# Nothing :: Maybe something [![Build Status](https://travis-ci.org/apauley/Nothing.svg?branch=master)](https://travis-ci.org/apauley/Nothing)
+
+A minimal Haskell project.
 
 This project evaluates to `Nothing` at the moment.<br/>
 `Maybe` you can turn it into something that's `Just spectacular`
