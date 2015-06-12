@@ -7,4 +7,4 @@ ghc:
   - 7.4
 
 script:
-  - cabal check && cabal configure --enable-tests && cabal build && cabal test && ./dist/build/hcopy/hcopy
+  - cabal check && cabal update && cabal install --dependencies-only && cabal configure --enable-tests && cabal build -j --ghc-options=-Werror && cabal test && ./dist/build/hcopy/hcopy
