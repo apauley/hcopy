@@ -7,6 +7,7 @@ Needed only once after cloning the repo:
 ```bash
 $ cabal sandbox init
 $ cabal update
+$ cabal install --dependencies-only
 $ cabal configure
 ```
 
